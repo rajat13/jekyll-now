@@ -174,16 +174,16 @@ function refresh(){
 
 function handlePaddles(){
     if(keyIsDown(38)){
-    p1-=0.4*p1V.y
+    p2-=0.4*p1V.y
   } 
   if(keyIsDown(40)){
-    p1+=0.4*p1V.y;
+    p2+=0.4*p1V.y;
   }
   
     if(keyIsDown(87)){
-    p2-=0.4*p2V.y
+    p1-=0.4*p2V.y
   } 
   if(keyIsDown(83)){
-    p2+=0.4*p2V.y;
+    p1+=0.4*p2V.y;
   }
 }
